@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <!-- original website link: https://www.microsoft.com/sv-se/windows/windows-11 -->
+
+    <!--  Thing to do:
+        Combine divs
+        text style
+        side-by-side image resposiv
+
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information and new functions in Microsoft Windows 11">
+    <title>Windows 11</title>
+
+        <!--css-->
+        <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header">
+        <!--<navbar>-->
+            <!-- Large screen change from left align to left and right align from meny groups.
+            Small scren - reverse the order of the meny groups, and one below the other.
+            Multiple layout for multiple screen sizes
+        -->
+            <nav class="main-nav">
+                <!-- Logo -->
+                    <div class="logodiv">
+                    <a href="#" class="logo">
+
+                    <img src="img/microsoft-icon.png" width="286" height="61" class="logoimg" alt="Home logo icon" >
+
+                    </a>
+                    </div>
+                    <!-- Hamburger icon -->
+                        <input class="menu-btn" type="checkbox" id="menu-btn">
+                        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    <!-- Menu -->
+                        <ul class="menu">
+<li class="left-float text-large"><a href="#">Windows</a></li>
+<li class="left-float"><a href="#">Om Windows</a></li>
+<li class="left-float"><a href="#">Skaffa Windows</a></li>
+<li class="left-float"><a href="#">Köp datorer</a></li>
+<li class="left-float"><a href="#">Få hjälp</a></li>
+<li class="left-float"><a href="#">För företag</a></li>
+<li class="right-float"><a href="#">Hela Microsoft</a></li>
+                        </ul>
+                </nav>
+    </header>
+
+
+
+<main>
+    <div class="row"></div>
+    <section>
+        <div class="row">
+            <div class="col-4">
+                <h1 class="h1-title">Det här är Windows 11</h1>
+                <p class="text-center">Intuitiv navigering. Enkel organisering. Snabbare prestanda. Dessutom nya funktioner för att låsa upp din produktivitet och kreativitet. Utforska dessa Windows 11-funktioner och ta reda på varför det är det bästa Windows hittills.</p>
+                <button class="primary-btn-type">Sök efter uppgradering nu</button>
+            </div>
+
+            <div class="col-8">
+                <div class="main-top">
+                <!-- <picture class="main-top-img"> -->
+                    <img class="main-top-img" src="img/img-1.jpg" width="1083" height="1083" alt="En man och son sitter vid ett bort och jobbar på sina datorer">
+                <!-- </picture> -->
+            </div>
+            </div>
+
+        </div>
+    </section>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <!-- Secondary nav
+                Make a dropdown nav for small screens -->
+                <nav class="nav-secondary">
+                    <ul class="nav-ul-secondary">
+                        <li class="nav-li-secondary"><a href="#">Lättare att använda</a>
+                        </li>
+                        <li class="nav-li-secondary"><a href="#">Produktivitetskraftverk</a>
+                        </li>
+                        <li class="nav-li-secondary"><a href="#">Prestanda och säkerhet</a>
+                        </li>
+                        <li class="nav-li-secondary"><a href="#">Spel</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-1"></div>
+        <div class="col-5">
+            <!-- Article text -->
+            <article>
+
+            <h2>Lättare att använda</h2>
+            <p class="text-larger">Utforska nya Windows 11-funktioner som hjälper dig att få saker gjorda snabbt, roligt och enkelt.</p>
+            <div class="article-text">
+            <div class="vertical-decoration"></div>
+
+            <div class="text-section">
+            <ul class="text-list">
+                <li>
+                    <H3>Allmän sökning</H3>
+                    <p>Välj Sök i aktivitetsfältet och börja skriva det du letar efter. Du får anpassade resultat från dina filer, foton, kontakter, e-postmeddelanden och även webben.</p>
+                </li>
+                <li>
+                    <h3>Tillgänglighetsfunktioner</h3>
+                    <p>Navigera med röstigenkänning1, se vad som sägs med livetextning eller få text på skärmen uppläst av en skärmläsare med en naturlig mänsklig röst.2 Windows 11 gör det enklare för alla att använda sin dator.</p>
+                </li>
+                <li>
+                    <h3>Enkel installation och anpassning</h3>
+                    <p>Anpassa skrivbordstema, bakgrunder, färger, text och mycket mer för att skapa det perfekta kreativa utrymmet för att utforska din passion.</p>
+                </li>
+            </ul>
+            <button class="secondary-btn-type">Läs mer</button>
+        </div></div>
+        </article>
+        </div>
+
+        <div class="col-5">
+            <!-- Article video
+                Add responsive media css for smaller screens.
+            -->
+            <section>
+                <div class="video-arcticle-div">
+                <video class="video-article" width="540" height="540" src="video/video1-ease-of-use.mp4" controls muted></video>
+                </div>
+            </section>
+        </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <!-- Article video
+                    Add responsive media css for smaller screens.
+                -->
+                <section>
+                    <div class="video-arcticle-div">
+                    <video class="video-article" width="540" height="540" src="video/video2-easier-production.mp4" controls muted></video>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-5">
+                <!-- Article text -->
+                <article>
+
+                <h2>
+                    Lättare att vara produktiv
+                </h2>
+                <p class="text-larger">
+                    Skapa balans på ditt skrivbord med lättanvända verktyg och Windows 11-funktioner som hjälper dig att optimera ditt skärmutrymme och maximera din produktivitet.
+                </p>
+                <div class="article-text">
+                <div class="vertical-decoration"></div>
+
+                <div class="text-section">
+                <ul class="text-list">
+                    <li>
+                        <H3>
+                            Fästtips
+                        </H3>
+                        <p>
+                            Organisera det som finns på din skärm i ett nafs för att ge plats åt dina bästa idéer. Dra bara ett fönster till skärmens kant för att aktivera fästtips och fäst dem på ett rent, organiserat rutnät.3
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            Skrivbordsgrupper
+                        </h3>
+                        <p>
+                            Håll ditt digitala liv organiserat med skrivbordsgrupper för alla de olika sätt som du arbetar och spelar på. Anpassade bakgrunder och etiketter hjälper dig att skapa en öronmärkt skrivbordsyta för varje del av ditt liv.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            Synkronisera din dator och telefon
+                        </h3>
+                        <p>
+                            Microsoft Phone Link är nu tillgänglig för iPhone®-enheter och Android™. Visa meddelanden, läs meddelanden och ring samtal från din PC13. Mindre fram och tillbaka mellan datorn och telefonen innebär mer tid att fokusera.
+                        </p>
+                    </li>
+                </ul>
+                <button class="secondary-btn-type">Läs mer</button>
+            </div></div>
+            </article>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <!-- Article text -->
+                <article>
+
+                <h2>
+                    Lättare att hålla sig säker
+                </h2>
+                <p class="text-larger">
+                    Funktionerna i Windows 11 ger dig kraften att skapa, samarbeta och hålla dina saker säkra.
+                </p>
+                <div class="article-text">
+                <div class="vertical-decoration"></div>
+
+                <div class="text-section">
+                <ul class="text-list">
+                    <li>
+                        <H3>
+                            Prestanda och säkerhet
+                        </H3>
+                        <p>
+                            Från det ögonblick som du startar är Windows 11 på sin vakt. Det arbetar tillsammans med din maskinvara och har utformats med flera olika skyddslager för att säkra dina appar, din information och din integritet.5
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            Enhetsskydd med SmartApp Control
+                        </h3>
+                        <p>
+                            Windows 11 kör endast appar med gott rykte och som inte kompromissar med dina data.6
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            Microsoft Edge-säkerhet
+                        </h3>
+                        <p>
+                            Förutom att ge dig kontroll över dina data och skydda dig mot skadlig kod kan Microsoft Edge även skanna webben för att kontrollera om dina lösenord har komprometterats.
+                        </p>
+                    </li>
+                </ul>
+                <button class="secondary-btn-type">Läs mer</button>
+            </div></div>
+            </article>
+            </div>
+
+            <div class="col-5">
+                <!-- Article video
+                    Add responsive media css for smaller screens.
+                -->
+                <section>
+                    <div class="video-arcticle-div">
+                    <video class="video-article" width="540" height="540" src="video/video3-easier-to-stay-safe.mp4" controls muted></video>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <!-- Article video
+                    Add responsive media css for smaller screens.
+                -->
+                <section>
+                    <div class="video-arcticle-div">
+                    <video class="video-article" width="540" height="540" src="video/video4-easier-to-play.mp4" controls muted></video>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-5">
+                <!-- Article text -->
+                <article>
+
+                <h2>
+                    Lättare att spela
+                </h2>
+                <p class="text-larger">
+                    Spela de senaste spelen med grafik som utmanar verkligheten. Med funktionerna i Windows 11 kan du spela på ditt sätt.
+                </p>
+                <div class="article-text">
+                <div class="vertical-decoration"></div>
+
+                <div class="text-section">
+                <ul class="text-list">
+                    <li>
+                        <H3>
+                            PC Game Pass
+                        </H3>
+                        <p>
+                            Spela hundratals högkvalitativa datorspel med vänner inklusive spel direkt på lanseringsdagen.7
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            Auto HDR
+                        </h3>
+                        <p>
+                            Auto HDR gör det möjligt för dina spel att producera intensivare highlighter och skuggor på kompatibla skärmar.8
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                            DirectStorage
+                        </h3>
+                        <p>
+                            DirectStorage tillåter större världar med högre detaljrikedom att laddas snabbare och stöds nu av fler lagringskonfigurationer.9
+                        </p>
+                    </li>
+                </ul>
+                <button class="secondary-btn-type">Läs mer</button>
+            </div></div>
+            </article>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+<div class="color-salmon">
+    <div class="col-1"></div>
+        <div class="col-10">
+        <section class="article-middle">
+
+            <h2>Skaffa en dator med Windows 11</h2>
+            <p>Upplev alla fördelarna med Windows 11 på en ny dator. Vi hjälper dig att hitta det bästa valet för dina behov.</p>
+
+            <div class="link-imgs">
+
+            <div class="link-img-1">
+                <img class="main-top-img" src="img/link-img-1.png" width="544" height="740" alt="En man och son sitter vid ett bort och jobbar på sina datorer">
+            </div>
+            <div class="link-img-2">
+                <img class="main-top-img" src="img/link-img-2.png" width="1040" height="740" alt="En man och son sitter vid ett bort och jobbar på sina datorer">
+            </div>
+            </div>
+
+        </section>
+        </div>
+</div>
+
+
+        </div>
+
+    <div class="row">
+        <section>
+        <div class="col-1"></div>
+        <div class="col-4">
+            <h2>Letar du efter mer?</h2>
+            <p>Få hjälp med övergången till Windows 11 och få ut det mesta möjliga av din Windows-upplevelse.</p>
+            <img class="img-left-1" src="img/img-3.png" alt="En man håller i en dator och ler" width="1050" height="1050"></div>
+
+        <div class="col-6">
+            <h3>Skaffa Windows 11</h3>
+            <p>Enkelt. Snabbare än någonsin. Upplev alla fördelar som Windows 11 har att erbjuda.11</p>
+            <a href="#">Skaffa det bästa Windows hittills</a>
+
+            <h3>Bli en insider</h3>
+            <p>Registrera dig för Windows Insider Program och ta kontakt med ingenjörerna för att hjälpa till att forma Windows framtid.</p>
+            <a href="#">Läs mer</a>
+
+
+        </div>
+</section>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-1"></div>
+
+        <section class="col-10 bg-blue">
+            <img class="img-right-1" src="img/img-4.png" alt="Ett blått hjärta" width="379" height="208">
+            <h2 class="h2-blue-small">Kontrollera kompatibiliteten</h2>
+            <p class="p-blue-small">Använd appen Datorhälsokontroll för att se om din dator kan köra Windows 11.10 11</p>
+            <div class="btn-txt">
+            <button class="btn-blue-left">Hämta appen Datorhälsokontroll </button>
+                <a href="">Se minimisystemkraven för Windows 11</a>
+
+</div>
+        </section>
+    </div>
+
+
+    <div class="row bg-color-dark-gray">
+            <div class="col-1 bg-color-dark-gray"></div>
+                <div class="col-10 bg-color-dark-gray">
+                <section class="small-text-white ">
+                    <ul>
+                    <li class="footnotes">
+                        Simulerade skärmar. Tillgänglighet för funktioner och appar varierar beroende på region.
+                    </li>
+                    <li class="footnotes">1 Maskinvaruberoende. Kräver Windows-dator med mikrofonfunktion.</li>
+                    <li class="footnotes">2 Endast amerikansk engelska för livetextning och röståtkomst. Utbudet av naturliga röster varierar beroende på marknad: Se bilaga A: Språk och röster som stöds.
+                    </li>
+                    <li class="footnotes">
+                        3 Vissa layouter är endast tillgängliga baserat på skärmupplösning och skalningsinställningar.
+                    </li>
+                    <li class="footnotes">
+                        5 Under enhetssupportsperioden som erbjuds av tillverkaren av originalutrustningen (OEM, Original Equipment Manufacturer).
+                    </li>
+                    <li class="footnotes">
+                        6 Endast tillgänglig i den senaste versionen av Windows 11. För att hålla dig så säker som möjligt måste du börja med ett nytt system. Datorer som har kört tidigare versioner av Windows måste göra en fullständig återställning av operativsystemet Windows 11 för att funktionen ska fungera.
+                    </li>
+                    <li class="footnotes">
+                        7 Medlemskap säljs separat. Villkor och undantag gäller. Spelutbudet varierar över tid och beroende på region och enhet. Kräver Windows 10/11 (med uppdateringar); exkluderar S-läge och ARM-enheter. Mer information finns på https://www.xbox.com/pcgamepass, https://www.ea.com/ea-play/terms och https://www.ea.com/ea-play.
+                    </li>
+                    <li class="footnotes">
+                        8 Auto HDR kräver en HDR-skärm och stöds i titlar som använder DirectX 11 eller senare API.
+                    </li>
+                    <li class="footnotes">
+                        9 DirectStorage kräver API-anpassning av spel. Kräver en NVMe SSD för att kunna lagra och köra spel som använder drivrutinen Standard NVM Express Controller och en DirectX12 GPU med stöd för Shader Model 6.0.
+                    </li>
+                    <li class="footnotes">
+                        10 För datorer med Windows 10 i S-läge ska du ladda ned den här versionen av appen Datorhälsokontroll.
+                    </li>
+                    <li class="footnotes">
+                        11 Windows 11-uppgraderingen är tillgänglig för berättigade datorer som uppfyller minimispecifikationerna. Tidpunkten för uppgraderingen kan variera beroende på enhet. Internetavgifter kan tillkomma. Tillgänglighet för funktioner och appar varierar beroende på region. Vissa funktioner kräver specifik maskinvara (se specifikationerna för Windows 11).
+                    </li>
+                    <li class="footnotes">
+                        13 Phone Link-upplevelsen är förinstallerad på din dator med Windows 10 (med minst Windows 10, uppdatering maj 2019) eller Windows 11. För att få full funktionalitet måste Android-telefoner ha Android 7.0 eller senare. Phone Link för iOS kräver iPhone med iOS 14 eller högre, Windows 11-enhet, Bluetooth-anslutning och den senaste versionen av Phone Link-appen. Inte tillgängligt för iPad (iPadOS) eller MacOS®. Enheternas kompatibilitet kan variera. Regionala begränsningar kan förekomma. Varumärken tillhör sina respektive ägare.
+                    </li>
+                </ul>
+
+
+                </section>
+                </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div class="socials-left"><p class="thin-text">Följ Microsoft Windows</p><img class="socials-img" src="img/SocialFacebook.svg" alt="Facebook" width="28" height="28"><img class="socials-img" src="img/SocialTwitter.svg" alt="Twitter" width="28" height="28">
+            </div>
+            <div class="socials-right">
+                <p class="thin-text">Tipsa dina vänner</p><img class="socials-img" src="img/SocialFacebook.svg" alt="Facebook" width="28" height="28"><img class="socials-img" src="img/SocialTwitter.svg" alt="Twitter" width="28" height="28">
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<footer class="footer-div">
+    <div class="row">
+        <div class="col-2">
+            <h4>Nyheter</h4>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Surface Laptop Studio 2</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Surface Laptop Go 3</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Surface Pro 9</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Surface Laptop 5</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Surface Studio 2+</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft 365</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Windows 11-appar</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h4>Microsoft Store</h4>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Kontoprofil</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Download Center</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Store-support</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Returer</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Orderspårning</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Återvinning</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Kommersiella garantier</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h4>Utbildning</h4>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Education</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Enheter för utbildning</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Teams för utbildning</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft 365 Education</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Office Education</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Utbildning och utveckling för lärare</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Erbjudanden för elever och föräldrar</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Azure för studenter</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h4>Företag</h4>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Cloud</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Security</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Azure</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Dynamics 365</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft 365</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Industry</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Teams</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Små företag</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h4>Utvecklare och IT</h4>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Utvecklarcenter</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Dokumentation</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Learn</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Tech Community</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Azure Marketplace</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">AppSource</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Microsoft Power Platform</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Visual Studio</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h4>Företag</h4>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Karriärmöjligheter</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Om Microsoft</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Företagsnyheter</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Sekretess på Microsoft</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Investerare</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-link" href="#">Hållbarhet</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-10 footer-text-center">
+        <a class="footer-link-small" href="#">Svenska (Sverige)</a>
+        <a class="footer-link-small" href="#">Dina sekretessval</a>
+        <a class="footer-link-small" href="#">Kontakta Microsoft</a>
+        <a class="footer-link-small" href="#">Integritet</a>
+        <a class="footer-link-small" href="#">Hantera cookies</a>
+        <a class="footer-link-small" href="#">Juridiskt meddelande</a>
+        <a class="footer-link-small" href="#">Varumärken</a>
+        <a class="footer-link-small" href="#">Om våra annonser</a>
+        <!-- <a class="footer-link-small" href="#">EU Compliance DoCs</a> -->
+        <p class="footer-text-small">EU Compliance DoCs</p>
+</div>
+</div>
+
+
+</footer>
+
+</body>
+</html>
